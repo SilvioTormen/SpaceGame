@@ -1,0 +1,1 @@
+../../../SpaceGame/SpaceGame.uproject  /Game/StarterContent/Maps/Minimal_Default -Messaging -SessionId=DF33A85641F96F33582F0D904AE631C2 -SessionOwner=admin -SessionName='Play On Device' -iterative
