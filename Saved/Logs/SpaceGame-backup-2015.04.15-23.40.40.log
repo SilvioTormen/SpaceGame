@@ -1,0 +1,806 @@
+﻿Log file open, 04/15/15 22:55:20
+LogInit:Display: Running engine for game: SpaceGame
+LogInit: Version: 4.7.5-2503383+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr  6 2015 23:21:51
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2015.04.15-20.55.20:575][  0]LogTaskGraph: Started task graph with 3 named threads and 6 total threads.
+[2015.04.15-20.55.20:658][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.04.15-20.55.20:691][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.04.15-20.55.20:704][  0]LogInit: Object subsystem initialized
+[2015.04.15-20.55.20:713][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.04.15-20.55.20:713][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/admin/Documents/GitHub/SpaceGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.15-20.55.20:713][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.04.15-20.55.20:713][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/admin/Documents/GitHub/SpaceGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.15-20.55.20:713][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.04.15-20.55.20:713][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/admin/Documents/GitHub/SpaceGame/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.04.15-20.55.20:716][  0]LogInit: Selected Device Profile: [Windows]
+[2015.04.15-20.55.20:716][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.04.15-20.55.20:730][  0]LogInit: Computer: ADMIN-PC
+[2015.04.15-20.55.20:730][  0]LogInit: User: admin
+[2015.04.15-20.55.20:730][  0]LogInit: CPU Page size=4096, Cores=4
+[2015.04.15-20.55.20:730][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2015.04.15-20.55.20:730][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx) Virtual=131072.0GB
+[2015.04.15-20.55.20:731][  0]LogMemory: Platform Memory Stats for Windows
+[2015.04.15-20.55.20:731][  0]LogMemory: Process Physical Memory: 46.82 MB used, 46.82 MB peak
+[2015.04.15-20.55.20:731][  0]LogMemory: Process Virtual Memory: 25.55 MB used, 25.55 MB peak
+[2015.04.15-20.55.20:731][  0]LogMemory: Physical Memory: 4400.98 MB used, 16254.34 MB total
+[2015.04.15-20.55.20:731][  0]LogMemory: Virtual Memory: 300.22 MB used, 134217728.00 MB total
+[2015.04.15-20.55.20:757][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 770 (Feature Level 11_0)
+[2015.04.15-20.55.20:757][  0]LogD3D11RHI: Adapter has 1987MB of dedicated video memory, 0MB of dedicated system memory, and 2048MB of shared system memory, 2 output[s]
+[2015.04.15-20.55.20:763][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2015.04.15-20.55.20:763][  0]LogD3D11RHI: Adapter has 32MB of dedicated video memory, 0MB of dedicated system memory, and 1760MB of shared system memory, 1 output[s]
+[2015.04.15-20.55.20:764][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.04.15-20.55.20:764][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 256MB of shared system memory, 0 output[s]
+[2015.04.15-20.55.20:764][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.04.15-20.55.20:769][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.04.15-20.55.20:778][  0]LogD3D11RHI: Async texture creation enabled
+[2015.04.15-20.55.21:000][  0]LogTextLocalizationManager: The requested culture ('de_DE') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.04.15-20.55.21:076][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2015.04.15-20.55.21:076][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2015.04.15-20.55.21:142][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.04.15-20.55.23:306][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.15-20.55.23:749][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.15-20.55.23:806][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.04.15-20.55.23:898][  0]LogDerivedDataCache: Loaded boot cache 0.09s 39MB C:/Users/admin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.15-20.55.23:898][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/admin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2015.04.15-20.55.23:898][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/admin/Documents/GitHub/SpaceGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.04.15-20.55.23:898][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.04.15-20.55.23:995][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.04.15-20.55.24:008][  0]LogDerivedDataCache: Using Local data cache path C:/Users/admin/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.04.15-20.55.24:885][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.04.15-20.55.24:885][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.04.15-20.55.25:459][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.04.15-20.55.25:542][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2015.04.15-20.55.27:241][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.04.15-20.55.27:457][  0]SourceControl: Info Source control is disabled
+[2015.04.15-20.55.27:458][  0]SourceControl: Info Source control is disabled
+[2015.04.15-20.55.27:458][  0]SourceControl: Info Source control is disabled
+[2015.04.15-20.55.27:458][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2015.04.15-20.55.27:458][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2015.04.15-20.55.27:466][  0]SourceControl: Info Source control is disabled
+[2015.04.15-20.55.27:655][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2015.04.15-20.55.27:655][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2015.04.15-20.55.27:747][  0]LogEngine: Initializing Engine...
+[2015.04.15-20.55.30:958][  0]LogInit: XAudio2 using 'Lautsprecher (Logitech USB Headset)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2015.04.15-20.55.30:966][  0]LogInit: FAudioDevice initialized.
+[2015.04.15-20.55.31:016][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.04.15-20.55.31:034][  0]LogDerivedDataCache: Saved boot cache 0.02s 39MB C:/Users/admin/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2015.04.15-20.55.31:040][  0]LogInit: Texture streaming: Enabled
+[2015.04.15-20.55.31:139][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.04.15-20.55.31:139][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.15-20.55.31:139][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.5-2503383+++depot+UE4-Releases+4.7
+[2015.04.15-20.55.31:139][  0]LogAnalytics: SetUserId dde3deed4523c0a2a770c48b31092dad|9afb1e8fda0a480cb286d8fd65efbaea|7aadb3ab-5297-4333-a6d6-a0753f16fa7d
+[2015.04.15-20.55.31:140][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2015.04.15-20.55.31:167][  0]LogInit: Transaction tracking system initialized
+[2015.04.15-20.55.31:331][  0]BlueprintLog: New page: Editor Load
+[2015.04.15-20.55.31:366][  0]LogAssetRegistry: FAssetRegistry took 0.0115 seconds to start up
+[2015.04.15-20.55.31:366][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.04.15-20.55.31:809][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.15-20.55.32:082][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.04.15-20.55.32:308][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2015.04.15-20.55.32:308][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2015.04.15-20.55.32:316][  0]LogConsoleResponse:Display: 
+[2015.04.15-20.55.32:474][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.04.15-20.55.32:618][  0]SourceControl: Info Source control is disabled
+[2015.04.15-20.55.32:620][  0]Cmd: MAP LOAD FILE="../../../../../../Users/admin/Documents/GitHub/SpaceGame/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.04.15-20.55.32:622][  0]LightingResults: New page: Lighting Build
+[2015.04.15-20.55.32:635][  0]MapCheck: New page: Map Check
+[2015.04.15-20.55.32:635][  0]LightingResults: New page: Lighting Build
+[2015.04.15-20.55.32:646][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C7329DFB00
+[2015.04.15-20.55.33:338][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.04.15-20.55.33:347][  0]LogAIModule: Creating AISystem for world Minimal_Default
+[2015.04.15-20.55.33:348][  0]Cmd: MAP CHECKDEP
+[2015.04.15-20.55.33:349][  0]MapCheck: New page: Minimal_Default - Apr 16, 2015, 12:55:33 AM
+[2015.04.15-20.55.33:409][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 60.098ms to complete.
+[2015.04.15-20.55.33:409][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.790
+[2015.04.15-20.55.33:634][  0]LogCollectionManager: Loaded 0 collections in 0.003303 seconds
+[2015.04.15-20.55.33:655][  0]LogContentBrowser: Native class hierarchy populated in 0.0206 seconds. Added 1696 classes and 261 folders.
+[2015.04.15-20.55.33:727][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0017 seconds. Added 1 classes and 2 folders.
+[2015.04.15-20.55.33:800][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.04.15-20.55.33:804][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2015.04.15-20.55.33:815][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.04.15-20.55.33:843][  0]LogLoad: Full Startup: 15.58 seconds (BP compile: 0.08 seconds)
+[2015.04.15-20.55.34:336][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/MyCharacter/ODST_Character/Animation'
+[2015.04.15-20.55.34:510][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x512 (Frame:2).
+[2015.04.15-20.55.37:716][ 10]LogAssetRegistry: Asset discovery search completed in 6.3614 seconds
+[2015.04.15-20.55.50:427][599]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.15-20.55.52:772][837]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Audio'
+[2015.04.15-20.55.53:245][874]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Blueprints'
+[2015.04.15-20.55.53:764][930]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Architecture'
+[2015.04.15-20.55.54:254][981]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/addonsPackages'
+[2015.04.15-20.57.42:248][805]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Blueprints'
+[2015.04.15-20.57.44:882][113]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/MyCharacter'
+[2015.04.15-20.57.46:610][319]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/MyCharacter/ODST_Character'
+[2015.04.15-20.57.52:105][968]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/MyCharacter/ODST_Character/Animation'
+[2015.04.15-20.57.53:099][ 46]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/MyCharacter/Vincent'
+[2015.04.15-20.57.53:615][103]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/MyCharacter/ODST_Character/Animation'
+[2015.04.15-20.57.54:102][126]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/MyCharacter/ODST_Character'
+[2015.04.15-20.57.59:064][664]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/MyCharacter/ODST_Character'
+[2015.04.15-20.58.08:963][837]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/MyCharacter/ODST_Character/Blueprint'
+[2015.04.15-20.58.10:855][ 61]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.15-20.58.12:139][186]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/MyCharacter/ODST_Character/Animation'
+[2015.04.15-20.58.13:984][356]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/MyCharacter/ODST_Character/Blueprint'
+[2015.04.15-20.58.35:839][282]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/MyCharacter/ODST_Character/Blueprint'
+[2015.04.15-20.59.11:056][ 56]LogLinker:Warning: Asset '../../../Engine/Content/EngineMeshes/Humanoid.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.15-20.59.11:070][ 56]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/MyCharacter/ODST_Character/Blueprint'
+[2015.04.15-20.59.28:445][  4]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.04.15-20.59.28:497][  4]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.04.15-21.01.29:656][104]BlueprintLog: New page: Compile ODST_CHaracter_Blueprint
+[2015.04.15-21.01.29:938][104]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.04.15-21.01.29:938][104]BlueprintEditorCompileResults: Info [0371.67] Compile of ODST_CHaracter_Blueprint successful! [in 282 ms]
+[2015.04.15-21.01.35:307][571]BlueprintLog: New page: Compile ODST_CHaracter_Blueprint
+[2015.04.15-21.01.35:359][571]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.04.15-21.01.35:359][571]BlueprintEditorCompileResults: Info [0377.10] Compile of ODST_CHaracter_Blueprint successful! [in 51 ms]
+[2015.04.15-21.01.48:633][586]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.04.15-21.02.55:613][905]BlueprintLog: New page: Compile ODST_CHaracter_Blueprint
+[2015.04.15-21.02.55:726][905]BlueprintEditorCompileResults: Info [0457.46] Compile of ODST_CHaracter_Blueprint successful! [in 113 ms]
+[2015.04.15-21.03.06:834][770]LogRenderer:Warning: Reallocating scene render targets to support 1208x920 (Frame:35020).
+[2015.04.15-21.03.06:834][770]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.04.15-21.04.56:911][805]LogBlueprint:Warning: [compiler] Warning  Run to JumpStart  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.04.56:911][805]LogBlueprint:Warning: [compiler] Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.04.56:912][805]LogBlueprint:Warning: [compiler] Warning  JumpLoop to JumpEnd  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.04.56:912][805]LogBlueprint:Warning: [compiler] Warning  JumpEnd to Run  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.04.56:914][805]LogBlueprint:Warning: [compiler] Warning [0578.65] Compile of ODST_CHaracter_Blueprint successful, but with 4 Warning(s) [in 19 ms]
+[2015.04.15-21.04.56:914][805]LogBlueprint:Warning: [compiler] Warning [0578.65] Compile of ODST_CHaracter_Blueprint successful, but with 5 Warning(s) [in 0 ms]
+[2015.04.15-21.04.56:966][805]LogBlueprint:Warning: [compiler] Warning [0578.70] Compile of ODST_CHaracter_Blueprint successful, but with 6 Warning(s) [in 51 ms]
+[2015.04.15-21.04.56:971][805]LogBlueprint:Warning: [compiler] Warning [0578.71] Compile of ODST_CHaracter_Blueprint successful, but with 7 Warning(s) [in 5 ms]
+[2015.04.15-21.04.56:971][805]LogBlueprint:Warning: [compiler] Warning [0578.71] Compile of ODST_CHaracter_Blueprint successful, but with 8 Warning(s) [in 0 ms]
+[2015.04.15-21.04.56:971][805]LogBlueprint:Warning: [compiler] Warning [0578.71] Compile of ODST_CHaracter_Blueprint successful, but with 9 Warning(s) [in 0 ms]
+[2015.04.15-21.05.23:071][937]BlueprintLog: New page: Compile ODST_CHaracter_Blueprint
+[2015.04.15-21.05.23:092][937]LogBlueprint:Warning: [compiler] Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.05.23:093][937]LogBlueprint:Warning: [compiler] Warning  JumpLoop to JumpEnd  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.05.23:093][937]LogBlueprint:Warning: [compiler] Warning  JumpEnd to Run  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.05.23:173][937]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C7478519E0
+[2015.04.15-21.05.23:173][937]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C7591CFCE0
+[2015.04.15-21.05.23:183][937]LogBlueprint:Warning: [compiler] Warning [0604.92] Compile of ODST_CHaracter_Blueprint successful, but with 3 Warning(s) [in 112 ms]
+[2015.04.15-21.05.23:183][937]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.04.15-21.05.23:183][937]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.04.15-21.05.23:183][937]BlueprintEditorCompileResults:Warning: Warning  JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.05.23:183][937]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.04.15-21.05.23:183][937]BlueprintEditorCompileResults:Warning: Warning  JumpLoop to JumpEnd  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.05.23:184][937]BlueprintEditorCompileResults:Warning: Warning  JumpEnd to Run  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.05.23:184][937]BlueprintEditorCompileResults:Warning: Warning [0604.92] Compile of ODST_CHaracter_Blueprint successful, but with 3 Warning(s) [in 112 ms]
+[2015.04.15-21.05.35:359][683]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.030
+[2015.04.15-21.05.35:418][683]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint] ([1] browsable assets)...
+[2015.04.15-21.05.35:439][683]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint.ODST_CHaracter_Blueprint]
+[2015.04.15-21.05.35:439][683]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint]
+[2015.04.15-21.05.35:892][683]LogSavePackage: Save=450.707001ms
+[2015.04.15-21.05.35:893][683]LogSavePackage: Moving '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Saved/ODST_CHaracter_Blueprint_Auto131370AFE409903692E9E27AE65D6E614.tmp' to '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Saved/Autosaves/Game/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint_Auto1.uasset'
+[2015.04.15-21.05.35:905][683]LogFileHelpers: Auto-saving content packages took 0.547
+[2015.04.15-21.08.09:483][527]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.04.15-21.08.23:290][517]BlueprintLog: New page: Compile ODST_CHaracter_Blueprint
+[2015.04.15-21.08.23:316][517]LogBlueprint:Warning: [compiler] Warning  JumpLoop to JumpEnd  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.08.23:316][517]LogBlueprint:Warning: [compiler] Warning  JumpEnd to Run  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.08.23:391][517]LogBlueprint:Warning: [compiler] Warning [0785.13] Compile of ODST_CHaracter_Blueprint successful, but with 2 Warning(s) [in 101 ms]
+[2015.04.15-21.08.23:391][517]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.04.15-21.08.23:391][517]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.04.15-21.08.23:391][517]BlueprintEditorCompileResults:Warning: Warning  JumpLoop to JumpEnd  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.08.23:391][517]BlueprintEditorCompileResults:Warning: Warning  JumpEnd to Run  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.08.23:391][517]BlueprintEditorCompileResults:Warning: Warning [0785.13] Compile of ODST_CHaracter_Blueprint successful, but with 2 Warning(s) [in 101 ms]
+[2015.04.15-21.08.41:321][852]BlueprintLog: New page: Compile ODST_CHaracter_Blueprint
+[2015.04.15-21.08.41:346][852]LogBlueprint:Warning: [compiler] Warning  JumpLoop to JumpEnd  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.08.41:346][852]LogBlueprint:Warning: [compiler] Warning  JumpEnd to Run  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.08.41:403][852]LogBlueprint:Warning: [compiler] Warning [0803.14] Compile of ODST_CHaracter_Blueprint successful, but with 2 Warning(s) [in 81 ms]
+[2015.04.15-21.08.41:403][852]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.04.15-21.08.41:403][852]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.04.15-21.08.41:403][852]BlueprintEditorCompileResults:Warning: Warning  JumpLoop to JumpEnd  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.08.41:403][852]BlueprintEditorCompileResults:Warning: Warning  JumpEnd to Run  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.08.41:403][852]BlueprintEditorCompileResults:Warning: Warning [0803.14] Compile of ODST_CHaracter_Blueprint successful, but with 2 Warning(s) [in 81 ms]
+[2015.04.15-21.09.05:244][701]BlueprintLog: New page: Compile ODST_CHaracter_Blueprint
+[2015.04.15-21.09.05:270][701]LogBlueprint:Warning: [compiler] Warning  JumpLoop to JumpEnd  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.09.05:270][701]LogBlueprint:Warning: [compiler] Warning  JumpEnd to Run  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.09.05:327][701]LogBlueprint:Warning: [compiler] Warning [0827.06] Compile of ODST_CHaracter_Blueprint successful, but with 2 Warning(s) [in 82 ms]
+[2015.04.15-21.09.05:327][701]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.04.15-21.09.05:327][701]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.04.15-21.09.05:327][701]BlueprintEditorCompileResults:Warning: Warning  JumpLoop to JumpEnd  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.09.05:327][701]BlueprintEditorCompileResults:Warning: Warning  JumpEnd to Run  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.09.05:327][701]BlueprintEditorCompileResults:Warning: Warning [0827.06] Compile of ODST_CHaracter_Blueprint successful, but with 2 Warning(s) [in 82 ms]
+[2015.04.15-21.09.08:865][973]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.15-21.09.08:865][973]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/MyCharacter/ODST_Character/Blueprint'
+[2015.04.15-21.09.23:635][ 93]LogSavePackage: Save=311.096100ms
+[2015.04.15-21.09.23:635][ 93]LogSavePackage: Moving '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Saved/ODST_CHaracter_BlueprintA5A8018746C963CC7A8FF89F1A63BB12.tmp' to '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Content/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint.uasset'
+[2015.04.15-21.09.45:471][965]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_4) - call TermArticulated first.
+[2015.04.15-21.10.17:601][ 45]BlueprintLog: New page: Compile ODST_CHaracter_Blueprint
+[2015.04.15-21.10.17:633][ 45]LogBlueprint:Warning: [compiler] Warning  JumpLoop to JumpEnd  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.10.17:633][ 45]LogBlueprint:Warning: [compiler] Warning  JumpEnd to Run  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.10.17:805][ 45]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C73CEF7C40
+[2015.04.15-21.10.17:806][ 45]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C749CFA7A0
+[2015.04.15-21.10.17:806][ 45]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C75AABD580
+[2015.04.15-21.10.17:815][ 45]LogBlueprint:Warning: [compiler] Warning [0899.55] Compile of ODST_CHaracter_Blueprint successful, but with 2 Warning(s) [in 213 ms]
+[2015.04.15-21.10.17:815][ 45]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.04.15-21.10.17:815][ 45]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.04.15-21.10.17:815][ 45]BlueprintEditorCompileResults:Warning: Warning  JumpLoop to JumpEnd  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.10.17:815][ 45]BlueprintEditorCompileResults:Warning: Warning  JumpEnd to Run  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.10.17:815][ 45]BlueprintEditorCompileResults:Warning: Warning [0899.55] Compile of ODST_CHaracter_Blueprint successful, but with 2 Warning(s) [in 213 ms]
+[2015.04.15-21.10.32:222][228]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.04.15-21.10.53:569][851]BlueprintLog: New page: Compile ODST_CHaracter_Blueprint
+[2015.04.15-21.10.53:600][851]LogBlueprint:Warning: [compiler] Warning  JumpLoop to JumpEnd  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.10.53:600][851]LogBlueprint:Warning: [compiler] Warning  JumpEnd to Run  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.10.53:663][851]LogBlueprint:Warning: [compiler] Warning [0935.40] Compile of ODST_CHaracter_Blueprint successful, but with 2 Warning(s) [in 93 ms]
+[2015.04.15-21.10.53:663][851]BlueprintEditorCompileResults: Info  Result  was visible but ignored
+[2015.04.15-21.10.53:663][851]BlueprintEditorCompileResults:Warning: Warning  JumpLoop to JumpEnd  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.10.53:663][851]BlueprintEditorCompileResults:Warning: Warning  JumpEnd to Run  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.10.53:663][851]BlueprintEditorCompileResults:Warning: Warning [0935.40] Compile of ODST_CHaracter_Blueprint successful, but with 2 Warning(s) [in 93 ms]
+[2015.04.15-21.11.11:311][100]LogSavePackage: Save=306.222656ms
+[2015.04.15-21.11.11:311][100]LogSavePackage: Moving '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Saved/ODST_CHaracter_Blueprint3C6D783D49EAF4615C9510A44E2C69F7.tmp' to '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Content/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint.uasset'
+[2015.04.15-21.11.38:120][683]BlueprintLog: New page: Compile ODST_CHaracter_Blueprint
+[2015.04.15-21.11.38:154][683]LogBlueprint:Warning: [compiler] Warning  JumpEnd to Run  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.11.38:226][683]LogBlueprint:Warning: [compiler] Warning [0979.96] Compile of ODST_CHaracter_Blueprint successful, but with 1 Warning(s) [in 105 ms]
+[2015.04.15-21.11.38:226][683]BlueprintEditorCompileResults:Warning: Warning  JumpEnd to Run  will never be taken, please connect something to  Can Enter Transition 
+[2015.04.15-21.11.38:226][683]BlueprintEditorCompileResults:Warning: Warning [0979.96] Compile of ODST_CHaracter_Blueprint successful, but with 1 Warning(s) [in 105 ms]
+[2015.04.15-21.11.42:599][968]LogSavePackage: Save=305.307648ms
+[2015.04.15-21.11.42:599][968]LogSavePackage: Moving '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Saved/ODST_CHaracter_Blueprint9E659932402CE1955AA956859E892342.tmp' to '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Content/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint.uasset'
+[2015.04.15-21.12.18:864][436]BlueprintLog: New page: Compile ODST_CHaracter_Blueprint
+[2015.04.15-21.12.18:981][436]BlueprintEditorCompileResults: Info [1020.72] Compile of ODST_CHaracter_Blueprint successful! [in 116 ms]
+[2015.04.15-21.12.25:454][901]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.04.15-21.12.26:939][988]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.04.15-21.13.38:598][547]LogSavePackage: Save=303.804199ms
+[2015.04.15-21.13.38:598][547]LogSavePackage: Moving '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Saved/ODST_CHaracter_BlueprintCE2D9A5045EF2B042D9D93A3306013CC.tmp' to '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Content/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint.uasset'
+[2015.04.15-21.15.41:146][346]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C762791EE0
+[2015.04.15-21.15.41:146][346]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C7594672E0
+[2015.04.15-21.15.41:153][346]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.030
+[2015.04.15-21.15.41:198][346]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint] ([1] browsable assets)...
+[2015.04.15-21.15.41:217][346]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint.ODST_CHaracter_Blueprint]
+[2015.04.15-21.15.41:217][346]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint]
+[2015.04.15-21.15.41:642][346]LogSavePackage: Save=416.362000ms
+[2015.04.15-21.15.41:643][346]LogSavePackage: Moving '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Saved/ODST_CHaracter_Blueprint_Auto265F2F25D42C5D8F65E51048A9F07B43D.tmp' to '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Saved/Autosaves/Game/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint_Auto2.uasset'
+[2015.04.15-21.15.41:651][346]LogFileHelpers: Auto-saving content packages took 0.498
+[2015.04.15-21.16.28:164][410]BlueprintLog: New page: Compile ODST_CHaracter_Blueprint
+[2015.04.15-21.16.28:304][410]BlueprintEditorCompileResults: Info [1270.04] Compile of ODST_CHaracter_Blueprint successful! [in 139 ms]
+[2015.04.15-21.16.52:946][258]LogSavePackage: Save=319.315582ms
+[2015.04.15-21.16.52:946][258]LogSavePackage: Moving '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Saved/ODST_CHaracter_Blueprint12F7D420418DE085D48B6BBFDFFF11B7.tmp' to '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Content/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint.uasset'
+[2015.04.15-21.17.30:031][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:031][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:031][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:031][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:031][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:031][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:031][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:031][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:031][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:031][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:031][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:031][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:032][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:032][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:032][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:032][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:032][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:032][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:032][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:032][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:032][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:032][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:032][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:032][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:032][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:032][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:033][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:033][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:033][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:033][521]LogUObjectGlobals:Warning: Failed to find object 'Object None.'
+[2015.04.15-21.17.30:034][521]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint.ODST_CHaracter_Blueprint:EventGraph.K2Node_DynamicCast_7 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_7
+[2015.04.15-21.17.30:034][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_7.EdGraphPin_6091''
+[2015.04.15-21.17.30:035][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_15661.EdGraphPin_3715''
+[2015.04.15-21.17.30:036][521]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint.ODST_CHaracter_Blueprint:EventGraph.K2Node_DynamicCast_7 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_7
+[2015.04.15-21.17.30:036][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_7.EdGraphPin_6094''
+[2015.04.15-21.17.30:038][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_111602.EdGraphPin_3647''
+[2015.04.15-21.17.30:038][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_5988.EdGraphPin_3458''
+[2015.04.15-21.17.30:040][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_6134.EdGraphPin_3471''
+[2015.04.15-21.17.30:041][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_6170.EdGraphPin_3479''
+[2015.04.15-21.17.30:043][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_14338.EdGraphPin_3669''
+[2015.04.15-21.17.30:046][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_7589.EdGraphPin_3494''
+[2015.04.15-21.17.30:046][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_8062.EdGraphPin_3506''
+[2015.04.15-21.17.30:046][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_448.EdGraphPin_3588''
+[2015.04.15-21.17.30:048][521]LogUObjectHash:Warning: Ambiguous search, could be K2Node_IfThenElse /Game/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint.ODST_CHaracter_Blueprint:EventGraph.K2Node_IfThenElse_25 or K2Node_IfThenElse /Engine/EditorBlueprintResources/StandardMacros.StandardMacros:Gate.K2Node_IfThenElse_25
+[2015.04.15-21.17.30:049][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_25.EdGraphPin_3518''
+[2015.04.15-21.17.30:051][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_432.EdGraphPin_3564''
+[2015.04.15-21.17.30:053][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_IfThenElse_27.EdGraphPin_3531''
+[2015.04.15-21.17.30:053][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_432.EdGraphPin_3562''
+[2015.04.15-21.17.30:054][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_448.EdGraphPin_3586''
+[2015.04.15-21.17.30:055][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_834.EdGraphPin_3623''
+[2015.04.15-21.17.30:056][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_8683.EdGraphPin_3544''
+[2015.04.15-21.17.30:056][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_440.EdGraphPin_3574''
+[2015.04.15-21.17.30:058][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_9156.EdGraphPin_3555''
+[2015.04.15-21.17.30:060][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_111602.EdGraphPin_3647''
+[2015.04.15-21.17.30:060][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_834.EdGraphPin_3624''
+[2015.04.15-21.17.30:063][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_464.EdGraphPin_3598''
+[2015.04.15-21.17.30:064][521]LogLinker:Warning: Can't find file '/Game/Animations/Blueprints/MyCharacterBP'
+[2015.04.15-21.17.30:064][521]LogLinker: Can't find file '/Game/Animations/Blueprints/MyCharacterBP'
+[2015.04.15-21.17.30:064][521]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPin:EdGraphPinType.PinSubCategoryObject: unresolved reference to 'AnimBlueprintGeneratedClass'/Game/Animations/Blueprints/MyCharacterBP.MyCharacterBP_C')'
+[2015.04.15-21.17.30:066][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_464.EdGraphPin_3598''
+[2015.04.15-21.17.30:067][521]LogLinker:Warning: Can't find file '/Game/Animations/Blueprints/MyCharacterBP'
+[2015.04.15-21.17.30:067][521]LogLinker: Can't find file '/Game/Animations/Blueprints/MyCharacterBP'
+[2015.04.15-21.17.30:067][521]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPin:EdGraphPinType.PinSubCategoryObject: unresolved reference to 'AnimBlueprintGeneratedClass'/Game/Animations/Blueprints/MyCharacterBP.MyCharacterBP_C')'
+[2015.04.15-21.17.30:070][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_464.EdGraphPin_3598''
+[2015.04.15-21.17.30:070][521]LogLinker:Warning: Can't find file '/Game/Animations/Blueprints/MyCharacterBP'
+[2015.04.15-21.17.30:071][521]LogLinker: Can't find file '/Game/Animations/Blueprints/MyCharacterBP'
+[2015.04.15-21.17.30:071][521]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPin:EdGraphPinType.PinSubCategoryObject: unresolved reference to 'AnimBlueprintGeneratedClass'/Game/Animations/Blueprints/MyCharacterBP.MyCharacterBP_C')'
+[2015.04.15-21.17.30:074][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_15968.EdGraphPin_3749''
+[2015.04.15-21.17.30:075][521]LogLinker:Warning: Can't find file '/Game/Animations/Blueprints/MyCharacterBP'
+[2015.04.15-21.17.30:075][521]LogLinker: Can't find file '/Game/Animations/Blueprints/MyCharacterBP'
+[2015.04.15-21.17.30:075][521]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPin:EdGraphPinType.PinSubCategoryObject: unresolved reference to 'AnimBlueprintGeneratedClass'/Game/Animations/Blueprints/MyCharacterBP.MyCharacterBP_C')'
+[2015.04.15-21.17.30:078][521]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint.ODST_CHaracter_Blueprint:EventGraph.K2Node_DynamicCast_7 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_7
+[2015.04.15-21.17.30:078][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_7.EdGraphPin_6092''
+[2015.04.15-21.17.30:078][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableSet_834.EdGraphPin_3622''
+[2015.04.15-21.17.30:079][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_111442.EdGraphPin_3641''
+[2015.04.15-21.17.30:079][521]LogLinker:Warning: Can't find file '/Game/Animations/Blueprints/MyCharacterBP'
+[2015.04.15-21.17.30:079][521]LogLinker: Can't find file '/Game/Animations/Blueprints/MyCharacterBP'
+[2015.04.15-21.17.30:079][521]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPin:EdGraphPinType.PinSubCategoryObject: unresolved reference to 'AnimBlueprintGeneratedClass'/Game/Animations/Blueprints/MyCharacterBP.MyCharacterBP_C')'
+[2015.04.15-21.17.30:082][521]LogLinker:Warning: Can't find file '/Game/Animations/Blueprints/MyCharacterBP'
+[2015.04.15-21.17.30:082][521]LogLinker: Can't find file '/Game/Animations/Blueprints/MyCharacterBP'
+[2015.04.15-21.17.30:083][521]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPin:EdGraphPinType.PinSubCategoryObject: unresolved reference to 'AnimBlueprintGeneratedClass'/Game/Animations/Blueprints/MyCharacterBP.MyCharacterBP_C')'
+[2015.04.15-21.17.30:084][521]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint.ODST_CHaracter_Blueprint:EventGraph.K2Node_DynamicCast_7 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_7
+[2015.04.15-21.17.30:084][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_7.EdGraphPin_6095''
+[2015.04.15-21.17.30:084][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_111442.EdGraphPin_3640''
+[2015.04.15-21.17.30:087][521]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint.ODST_CHaracter_Blueprint:EventGraph.K2Node_DynamicCast_7 or K2Node_DynamicCast /Engine/Transient.PROTO_BP_Blueprint_0:UserConstructionScript.K2Node_DynamicCast_7
+[2015.04.15-21.17.30:087][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_7.EdGraphPin_6095''
+[2015.04.15-21.17.30:090][521]LogLinker:Warning: Can't find file '/Game/Blueprints/MyCharacter'
+[2015.04.15-21.17.30:090][521]LogLinker: Can't find file '/Game/Blueprints/MyCharacter'
+[2015.04.15-21.17.30:090][521]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPin:EdGraphPinType.PinSubCategoryObject: unresolved reference to 'BlueprintGeneratedClass'/Game/Blueprints/MyCharacter.MyCharacter_C')'
+[2015.04.15-21.17.30:090][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_14338.EdGraphPin_3668''
+[2015.04.15-21.17.30:090][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_14502.EdGraphPin_3674''
+[2015.04.15-21.17.30:091][521]LogLinker:Warning: Can't find file '/Game/Blueprints/MyCharacter'
+[2015.04.15-21.17.30:091][521]LogLinker: Can't find file '/Game/Blueprints/MyCharacter'
+[2015.04.15-21.17.30:091][521]LogProperty:Warning: ClassProperty /Script/BlueprintGraph.K2Node_DynamicCast:TargetType: unresolved reference to 'BlueprintGeneratedClass'/Game/Blueprints/MyCharacter.MyCharacter_C''
+[2015.04.15-21.17.30:092][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_14538.EdGraphPin_3681''
+[2015.04.15-21.17.30:094][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_14538.EdGraphPin_3682''
+[2015.04.15-21.17.30:096][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_15661.EdGraphPin_3714''
+[2015.04.15-21.17.30:098][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_15625.EdGraphPin_3698''
+[2015.04.15-21.17.30:098][521]LogLinker:Warning: Can't find file '/Game/Animations/Blueprints/MyCharacterBP'
+[2015.04.15-21.17.30:098][521]LogLinker: Can't find file '/Game/Animations/Blueprints/MyCharacterBP'
+[2015.04.15-21.17.30:098][521]LogProperty:Warning: WeakObjectProperty /Script/Engine.EdGraphPin:EdGraphPinType.PinSubCategoryObject: unresolved reference to 'AnimBlueprintGeneratedClass'/Game/Animations/Blueprints/MyCharacterBP.MyCharacterBP_C')'
+[2015.04.15-21.17.30:101][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_15661.EdGraphPin_3713''
+[2015.04.15-21.17.30:104][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_15697.EdGraphPin_3731''
+[2015.04.15-21.17.30:107][521]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_CallFunction_15968.EdGraphPin_3746''
+[2015.04.15-21.17.30:119][521]LogBlueprint:Warning: [ODST_CHaracter_Blueprint] CreatePinForVariable: 'IsJumping' variable not found. Base class was probably changed.
+[2015.04.15-21.17.30:119][521]LogBlueprint:Warning: [ODST_CHaracter_Blueprint] CreatePinForVariable: 'IsJumping' variable not found. Base class was probably changed.
+[2015.04.15-21.17.42:613][263]BlueprintLog: New page: Compile ODST_CHaracter_Blueprint
+[2015.04.15-21.17.42:683][263]LogBlueprint:Warning: [compiler] Warning Could not find a variable named "IsJumping" in 'ODST_CHaracter_Blueprint_C'.
+Make sure 'ODST_CHaracter_Blueprint_C' has been compiled for  Set IsJumping 
+[2015.04.15-21.17.42:692][263]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.17.42:692][263]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.17.42:692][263]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.17.42:692][263]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.17.42:692][263]LogBlueprint:Error: [compiler] Error The property associated with  Is Jumping  could not be found
+[2015.04.15-21.17.42:839][263]LogBlueprint:Warning: [compiler] Warning [1344.58] Compile of ODST_CHaracter_Blueprint failed. 5 Fatal Issue(s) 1 Warning(s) [in 226 ms]
+[2015.04.15-21.17.42:839][263]BlueprintEditorCompileResults:Warning: Warning Could not find a variable named "IsJumping" in 'ODST_CHaracter_Blueprint_C'.
+Make sure 'ODST_CHaracter_Blueprint_C' has been compiled for  Set IsJumping 
+[2015.04.15-21.17.42:840][263]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.17.42:840][263]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.17.42:840][263]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.17.42:840][263]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.17.42:840][263]BlueprintEditorCompileResults:Error: Error The property associated with  Is Jumping  could not be found
+[2015.04.15-21.17.42:840][263]BlueprintEditorCompileResults:Warning: Warning [1344.58] Compile of ODST_CHaracter_Blueprint failed. 5 Fatal Issue(s) 1 Warning(s) [in 226 ms]
+[2015.04.15-21.18.15:086][407]BlueprintLog: New page: Compile ODST_CHaracter_Blueprint
+[2015.04.15-21.18.15:167][407]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.18.15:167][407]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.18.15:167][407]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.18.15:167][407]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.18.15:291][407]LogBlueprint:Warning: [compiler] Warning [1377.03] Compile of ODST_CHaracter_Blueprint failed. 4 Fatal Issue(s) 0 Warning(s) [in 204 ms]
+[2015.04.15-21.18.15:291][407]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.18.15:291][407]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.18.15:291][407]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.18.15:291][407]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.18.15:291][407]BlueprintEditorCompileResults:Warning: Warning [1377.03] Compile of ODST_CHaracter_Blueprint failed. 4 Fatal Issue(s) 0 Warning(s) [in 204 ms]
+[2015.04.15-21.19.15:479][676]BlueprintLog: New page: Compile ODST_CHaracter_Blueprint
+[2015.04.15-21.19.15:569][676]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.19.15:569][676]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.19.15:569][676]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.19.15:718][676]LogBlueprint:Warning: [compiler] Warning [1437.45] Compile of ODST_CHaracter_Blueprint failed. 3 Fatal Issue(s) 0 Warning(s) [in 238 ms]
+[2015.04.15-21.19.15:718][676]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.19.15:718][676]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.19.15:718][676]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.19.15:718][676]BlueprintEditorCompileResults:Warning: Warning [1437.45] Compile of ODST_CHaracter_Blueprint failed. 3 Fatal Issue(s) 0 Warning(s) [in 238 ms]
+[2015.04.15-21.19.30:042][507]BlueprintLog: New page: Compile ODST_CHaracter_Blueprint
+[2015.04.15-21.19.30:132][507]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.19.30:132][507]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.19.30:132][507]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.19.30:265][507]LogBlueprint:Warning: [compiler] Warning [1452.00] Compile of ODST_CHaracter_Blueprint failed. 3 Fatal Issue(s) 0 Warning(s) [in 222 ms]
+[2015.04.15-21.19.30:265][507]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.19.30:265][507]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.19.30:265][507]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.19.30:265][507]BlueprintEditorCompileResults:Warning: Warning [1452.00] Compile of ODST_CHaracter_Blueprint failed. 3 Fatal Issue(s) 0 Warning(s) [in 222 ms]
+[2015.04.15-21.19.42:785][298]LogEditorTransaction: Undo Create Pin Link
+[2015.04.15-21.19.43:342][312]LogEditorTransaction: Undo Create Pin Link
+[2015.04.15-21.19.57:591][427]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.7\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 148]
+UEdGraphPin::BreakLinkTo Pin 'self' on node 'Get Actor Rotation' not reciprocally linked with pin 'AsCharacter' on node 'Cast To Character'
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() (0x00007ff8ed469ed6) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:174]
+UE4Editor-Core.dll!FDebug::EnsureFailed() (0x00007ff8ed2d2ffd) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\outputdevice.cpp:279]
+UE4Editor-Engine.dll!UEdGraphPin::BreakLinkTo() (0x00007ff8ea260492) + 247 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:148]
+UE4Editor-Engine.dll!UEdGraphPin::BreakAllPinLinks() (0x00007ff8ea2602d2) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:163]
+UE4Editor-Engine.dll!UEdGraphSchema::BreakPinLinks() (0x00007ff8ea260798) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\edgraph\edgraphschema.cpp:392]
+UE4Editor-BlueprintGraph.dll!UEdGraphSchema_K2::BreakPinLinks() (0x00007ff8e5d87260) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\blueprintgraph\private\edgraphschema_k2.cpp:3530]
+UE4Editor-Engine.dll!UEdGraphSchema::BreakNodeLinks() (0x00007ff8ea2606eb) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\edgraph\edgraphschema.cpp:361]
+UE4Editor-BlueprintGraph.dll!UEdGraphSchema_K2::BreakNodeLinks() (0x00007ff8e5d871ad) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\blueprintgraph\private\edgraphschema_k2.cpp:3516]
+UE4Editor-UnrealEd.dll!FBlueprintEditorUtils::RemoveNode() (0x00007ff8e85aefc3) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\kismet2\blueprinteditorutils.cpp:2217]
+UE4Editor-Kismet.dll!FBlueprintEditor::DeleteSelectedNodes() (0x00007ff8e69d52b0) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\kismet\private\blueprinteditor.cpp:4749]
+UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,TTypeWrapper<void> __cdecl(void)>::Execute() (0x00007ff8e69e0751) + 32 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:282]
+UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,void __cdecl(void)>::ExecuteIfSafe() (0x00007ff8e69e40d6) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:388]
+UE4Editor-Slate.dll!FUICommandList::ConditionalProcessCommandBindings() (0x00007ff8e91d66d6) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:192]
+UE4Editor-Slate.dll!FUICommandList::ProcessCommandBindings() (0x00007ff8e922317c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:136]
+UE4Editor-GraphEditor.dll!SGraphEditorImpl::OnKeyDown() (0x00007ff8e50ef6bf) + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\grapheditor\private\sgrapheditorimpl.cpp:66]
+UE4Editor-Slate.dll!<lambda_01b95f45d99b75c93c453dee9d82570e>::operator()() (0x00007ff8e91bc872) + 38 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3581]
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FKeyEvent,<lambda_01b95f45d99b75c93c453dee9d82570e> >() (0x00007ff8e9176e4d) + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:202]
+UE4Editor-Slate.dll!FEventRouter::RouteAlongFocusPath<FEventRouter::FBubblePolicy,<lambda_01b95f45d99b75c93c453dee9d82570e>,FKeyEvent>() (0x00007ff8e917894a) + 52 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:184]
+UE4Editor-Slate.dll!FSlateApplication::ProcessKeyDownEvent() (0x00007ff8e9223e6d) + 93 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3582]
+UE4Editor-Slate.dll!FSlateApplication::OnKeyDown() (0x00007ff8e9213798) + 14 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3517]
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() (0x00007ff8ed3c3650) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1229]
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() (0x00007ff8ed3b5d2e) + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1669]
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() (0x00007ff8ed3c4d50) + 41 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:742]
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() (0x00007ff8ed3b3192) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:604]
+USER32.dll!UnknownFunction (0x00007ff929c1250d) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ff929c12367) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() (0x00007ff8ed463ec6) + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:774]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff7778000a9) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launchengineloop.cpp:2233]
+UE4Editor.exe!GuardedMain() (0x00007ff7777f267c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff7777f26ea) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff777802219) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff777803159) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ff929a713d2) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ff929e0e954) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ff929e0e954) + 0 bytes [UnknownFile:0]
+
+[2015.04.15-21.19.57:834][427]LogOutputDevice: === Handled error: ===
+
+Ensure condition failed: ToPin->LinkedTo.Contains(this) [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.7\Engine\Source\Runtime\Engine\Private\EdGraph\EdGraphPin.cpp] [Line: 148]
+UEdGraphPin::BreakLinkTo Pin 'self' on node 'Get Control Rotation' not reciprocally linked with pin 'AsCharacter' on node 'Cast To Character'
+Stack: 
+UE4Editor-Core.dll!FWindowsPlatformStackWalk::StackWalkAndDump() (0x00007ff8ed469ed6) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformstackwalk.cpp:174]
+UE4Editor-Core.dll!FDebug::EnsureFailed() (0x00007ff8ed2d2ffd) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\misc\outputdevice.cpp:279]
+UE4Editor-Engine.dll!UEdGraphPin::BreakLinkTo() (0x00007ff8ea260492) + 247 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:148]
+UE4Editor-Engine.dll!UEdGraphPin::BreakAllPinLinks() (0x00007ff8ea2602d2) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\edgraph\edgraphpin.cpp:163]
+UE4Editor-Engine.dll!UEdGraphSchema::BreakPinLinks() (0x00007ff8ea260798) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\edgraph\edgraphschema.cpp:392]
+UE4Editor-BlueprintGraph.dll!UEdGraphSchema_K2::BreakPinLinks() (0x00007ff8e5d87260) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\blueprintgraph\private\edgraphschema_k2.cpp:3530]
+UE4Editor-Engine.dll!UEdGraphSchema::BreakNodeLinks() (0x00007ff8ea2606eb) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\engine\private\edgraph\edgraphschema.cpp:361]
+UE4Editor-BlueprintGraph.dll!UEdGraphSchema_K2::BreakNodeLinks() (0x00007ff8e5d871ad) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\blueprintgraph\private\edgraphschema_k2.cpp:3516]
+UE4Editor-UnrealEd.dll!FBlueprintEditorUtils::RemoveNode() (0x00007ff8e85aefc3) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\unrealed\private\kismet2\blueprinteditorutils.cpp:2217]
+UE4Editor-Kismet.dll!FBlueprintEditor::DeleteSelectedNodes() (0x00007ff8e69d52b0) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\kismet\private\blueprinteditor.cpp:4749]
+UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,TTypeWrapper<void> __cdecl(void)>::Execute() (0x00007ff8e69e0751) + 32 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:282]
+UE4Editor-Kismet.dll!TBaseSPMethodDelegateInstance<0,FBlueprintEditor,0,void __cdecl(void)>::ExecuteIfSafe() (0x00007ff8e69e40d6) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\public\delegates\delegateinstancesimpl_variadics.inl:388]
+UE4Editor-Slate.dll!FUICommandList::ConditionalProcessCommandBindings() (0x00007ff8e91d66d6) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:192]
+UE4Editor-Slate.dll!FUICommandList::ProcessCommandBindings() (0x00007ff8e922317c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\commands\uicommandlist.cpp:136]
+UE4Editor-GraphEditor.dll!SGraphEditorImpl::OnKeyDown() (0x00007ff8e50ef6bf) + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\editor\grapheditor\private\sgrapheditorimpl.cpp:66]
+UE4Editor-Slate.dll!<lambda_01b95f45d99b75c93c453dee9d82570e>::operator()() (0x00007ff8e91bc872) + 38 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3581]
+UE4Editor-Slate.dll!FEventRouter::Route<FReply,FEventRouter::FBubblePolicy,FKeyEvent,<lambda_01b95f45d99b75c93c453dee9d82570e> >() (0x00007ff8e9176e4d) + 21 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:202]
+UE4Editor-Slate.dll!FEventRouter::RouteAlongFocusPath<FEventRouter::FBubblePolicy,<lambda_01b95f45d99b75c93c453dee9d82570e>,FKeyEvent>() (0x00007ff8e917894a) + 52 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:184]
+UE4Editor-Slate.dll!FSlateApplication::ProcessKeyDownEvent() (0x00007ff8e9223e6d) + 93 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3582]
+UE4Editor-Slate.dll!FSlateApplication::OnKeyDown() (0x00007ff8e9213798) + 14 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\slate\private\framework\application\slateapplication.cpp:3517]
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() (0x00007ff8ed3c3650) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1229]
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() (0x00007ff8ed3b5d2e) + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:1669]
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() (0x00007ff8ed3c4d50) + 41 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:742]
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() (0x00007ff8ed3b3192) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsapplication.cpp:604]
+USER32.dll!UnknownFunction (0x00007ff929c1250d) + 0 bytes [UnknownFile:0]
+USER32.dll!UnknownFunction (0x00007ff929c12367) + 0 bytes [UnknownFile:0]
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() (0x00007ff8ed463ec6) + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\core\private\windows\windowsplatformmisc.cpp:774]
+UE4Editor.exe!FEngineLoop::Tick() (0x00007ff7778000a9) + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launchengineloop.cpp:2233]
+UE4Editor.exe!GuardedMain() (0x00007ff7777f267c) + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\launch.cpp:142]
+UE4Editor.exe!GuardedMainWrapper() (0x00007ff7777f26ea) + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:126]
+UE4Editor.exe!WinMain() (0x00007ff777802219) + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.7\engine\source\runtime\launch\private\windows\launchwindows.cpp:202]
+UE4Editor.exe!__tmainCRTStartup() (0x00007ff777803159) + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL!UnknownFunction (0x00007ff929a713d2) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ff929e0e954) + 0 bytes [UnknownFile:0]
+ntdll.dll!UnknownFunction (0x00007ff929e0e954) + 0 bytes [UnknownFile:0]
+
+[2015.04.15-21.20.57:492][869]BlueprintLog: New page: Compile ODST_CHaracter_Blueprint
+[2015.04.15-21.20.57:581][869]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.20.57:581][869]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.20.57:581][869]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.20.57:762][869]LogBlueprint:Warning: [compiler] Warning [1539.50] Compile of ODST_CHaracter_Blueprint failed. 3 Fatal Issue(s) 0 Warning(s) [in 270 ms]
+[2015.04.15-21.20.57:762][869]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.20.57:762][869]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.20.57:762][869]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.20.57:762][869]BlueprintEditorCompileResults:Warning: Warning [1539.50] Compile of ODST_CHaracter_Blueprint failed. 3 Fatal Issue(s) 0 Warning(s) [in 270 ms]
+[2015.04.15-21.21.33:234][200]BlueprintLog: New page: Compile ODST_CHaracter_Blueprint
+[2015.04.15-21.21.33:327][200]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.21.33:327][200]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.21.33:327][200]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.21.33:478][200]LogBlueprint:Warning: [compiler] Warning [1575.21] Compile of ODST_CHaracter_Blueprint failed. 3 Fatal Issue(s) 0 Warning(s) [in 244 ms]
+[2015.04.15-21.21.33:478][200]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.21.33:478][200]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.21.33:478][200]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.21.33:478][200]BlueprintEditorCompileResults:Warning: Warning [1575.21] Compile of ODST_CHaracter_Blueprint failed. 3 Fatal Issue(s) 0 Warning(s) [in 244 ms]
+[2015.04.15-21.23.04:048][ 34]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Blueprints'
+[2015.04.15-21.23.16:463][325]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Blueprints'
+[2015.04.15-21.23.22:594][ 22]LogRenderer:Warning: Reallocating scene render targets to support 1208x944 (Frame:187715).
+[2015.04.15-21.23.44:864][498]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C765797B00
+[2015.04.15-21.23.44:865][498]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C74476BBA0
+[2015.04.15-21.23.44:865][498]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C744769D00
+[2015.04.15-21.23.44:865][498]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C76E125580
+[2015.04.15-21.23.53:960][692]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Blueprints'
+[2015.04.15-21.26.17:646][905]BlueprintLog: New page: Compile MyCharacter
+[2015.04.15-21.26.17:708][905]BlueprintEditorCompileResults: Info [1859.44] Compile of MyCharacter successful! [in 61 ms]
+[2015.04.15-21.26.18:787][  4]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/MyCharacter" FILE="../../../../../../Users/admin/Documents/GitHub/SpaceGame/Content/StarterContent/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.04.15-21.26.19:065][  4]LogSavePackage: Save=275.534332ms
+[2015.04.15-21.26.19:065][  4]LogSavePackage: Moving '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Saved/MyCharacter03B195114ED6660060221B8C419DB8B8.tmp' to '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Content/StarterContent/Blueprints/MyCharacter.uasset'
+[2015.04.15-21.26.21:677][276]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.018
+[2015.04.15-21.26.21:722][276]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint] ([1] browsable assets)...
+[2015.04.15-21.26.21:771][276]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint.ODST_CHaracter_Blueprint]
+[2015.04.15-21.26.21:773][276]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint]
+[2015.04.15-21.26.22:251][276]LogSavePackage: Save=455.802612ms
+[2015.04.15-21.26.22:251][276]LogSavePackage: Moving '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Saved/ODST_CHaracter_Blueprint_Auto3246AA78D410F6F37B69810995BC722CE.tmp' to '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Saved/Autosaves/Game/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint_Auto3.uasset'
+[2015.04.15-21.26.22:258][276]LogFileHelpers: Auto-saving content packages took 0.581
+[2015.04.15-21.29.36:027][340]BlueprintLog: New page: Compile MyCharacter
+[2015.04.15-21.29.36:092][340]BlueprintEditorCompileResults: Info [2057.83] Compile of MyCharacter successful! [in 65 ms]
+[2015.04.15-21.29.36:813][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/MyCharacter" FILE="../../../../../../Users/admin/Documents/GitHub/SpaceGame/Content/StarterContent/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.04.15-21.29.37:082][413]LogSavePackage: Save=260.537781ms
+[2015.04.15-21.29.37:082][413]LogSavePackage: Moving '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Saved/MyCharacter066467D046794B78D1BEE2A1556E1312.tmp' to '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Content/StarterContent/Blueprints/MyCharacter.uasset'
+[2015.04.15-21.31.07:219][355]LogEditorTransaction: Undo Modify Component(s)
+[2015.04.15-21.31.46:125][733]BlueprintLog: New page: Compile MyCharacter
+[2015.04.15-21.31.46:190][733]BlueprintEditorCompileResults: Info [2187.93] Compile of MyCharacter successful! [in 64 ms]
+[2015.04.15-21.31.47:095][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/MyCharacter" FILE="../../../../../../Users/admin/Documents/GitHub/SpaceGame/Content/StarterContent/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.04.15-21.31.47:358][828]LogSavePackage: Save=256.144135ms
+[2015.04.15-21.31.47:358][828]LogSavePackage: Moving '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Saved/MyCharacter3111E5474B547A116561D5878438404C.tmp' to '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Content/StarterContent/Blueprints/MyCharacter.uasset'
+[2015.04.15-21.32.12:036][147]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/StarterContent/Blueprints/MyCharacter" FILE="../../../../../../Users/admin/Documents/GitHub/SpaceGame/Content/StarterContent/Blueprints/MyCharacter.uasset" SILENT=true
+[2015.04.15-21.32.12:055][147]LogSavePackage: Save=13.545297ms
+[2015.04.15-21.32.12:055][147]LogSavePackage: Moving '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Saved/MyCharacter08D54F5B482F55ABB6944B83FEC46CA8.tmp' to '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Content/StarterContent/Blueprints/MyCharacter.uasset'
+[2015.04.15-21.32.18:819][939]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/MyCharacter/ODST_Character/Blueprint'
+[2015.04.15-21.32.19:889][ 24]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_8) - call TermArticulated first.
+[2015.04.15-21.32.42:251][414]BlueprintLog: New page: Compile ODST_CHaracter_Blueprint
+[2015.04.15-21.32.42:342][414]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.32.42:342][414]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.32.42:342][414]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.32.42:637][414]LogBlueprint:Warning: [compiler] Warning [2244.37] Compile of ODST_CHaracter_Blueprint failed. 3 Fatal Issue(s) 0 Warning(s) [in 386 ms]
+[2015.04.15-21.32.42:637][414]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.32.42:637][414]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.32.42:638][414]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.32.42:638][414]BlueprintEditorCompileResults:Warning: Warning [2244.37] Compile of ODST_CHaracter_Blueprint failed. 3 Fatal Issue(s) 0 Warning(s) [in 386 ms]
+[2015.04.15-21.32.45:812][619]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.15-21.32.45:812][619]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/MyCharacter/ODST_Character/Blueprint'
+[2015.04.15-21.32.58:507][381]BlueprintLog: New page: Compile ODST_CHaracter_Blueprint
+[2015.04.15-21.32.58:598][381]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.32.58:598][381]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.32.58:598][381]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.32.58:731][381]LogBlueprint:Warning: [compiler] Warning [2260.47] Compile of ODST_CHaracter_Blueprint failed. 3 Fatal Issue(s) 0 Warning(s) [in 223 ms]
+[2015.04.15-21.32.58:731][381]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.32.58:731][381]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.32.58:731][381]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.32.58:731][381]BlueprintEditorCompileResults:Warning: Warning [2260.47] Compile of ODST_CHaracter_Blueprint failed. 3 Fatal Issue(s) 0 Warning(s) [in 223 ms]
+[2015.04.15-21.33.02:248][589]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2015.04.15-21.33.02:248][589]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/MyCharacter/ODST_Character/Blueprint'
+[2015.04.15-21.33.41:358][928]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/Blueprints'
+[2015.04.15-21.34.20:872][ 87]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/MyCharacter/ODST_Character'
+[2015.04.15-21.34.23:034][323]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/MyCharacter/ODST_Character/Animation'
+[2015.04.15-21.34.25:061][473]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/MyCharacter/ODST_Character/Blueprint'
+[2015.04.15-21.34.26:423][583]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2015.04.15-21.34.48:074][105]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.04.15-21.34.55:423][574]BlueprintLog: New page: Compile ODST_CHaracter_Blueprint
+[2015.04.15-21.34.55:513][574]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.34.55:513][574]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.34.55:513][574]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.34.56:076][574]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C7693BB6A0
+[2015.04.15-21.34.56:076][574]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C747850180
+[2015.04.15-21.34.56:087][574]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C7478500E0
+[2015.04.15-21.34.56:087][574]LogBlueprint:Warning: [compiler] Warning [2377.82] Compile of ODST_CHaracter_Blueprint failed. 3 Fatal Issue(s) 0 Warning(s) [in 664 ms]
+[2015.04.15-21.34.56:087][574]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.34.56:087][574]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.34.56:087][574]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.34.56:087][574]BlueprintEditorCompileResults:Warning: Warning [2377.82] Compile of ODST_CHaracter_Blueprint failed. 3 Fatal Issue(s) 0 Warning(s) [in 664 ms]
+[2015.04.15-21.36.22:802][413]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/StarterContent/Maps/Minimal_Default' took 0.033
+[2015.04.15-21.36.22:871][413]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint] ([1] browsable assets)...
+[2015.04.15-21.36.22:910][413]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint.ODST_CHaracter_Blueprint]
+[2015.04.15-21.36.22:910][413]OBJ SavePackage: Finished generating thumbnails for package [/Game/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint]
+[2015.04.15-21.36.23:387][413]LogSavePackage: Save=466.367645ms
+[2015.04.15-21.36.23:388][413]LogSavePackage: Moving '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Saved/ODST_CHaracter_Blueprint_Auto4684B57474F4764A76ECB71A5D4ACAE49.tmp' to '../../../../../../Users/admin/Documents/GitHub/SpaceGame/Saved/Autosaves/Game/StarterContent/MyCharacter/ODST_Character/Blueprint/ODST_CHaracter_Blueprint_Auto4.uasset'
+[2015.04.15-21.36.23:395][413]LogFileHelpers: Auto-saving content packages took 0.593
+[2015.04.15-21.39.16:750][431]BlueprintLog: New page: Compile ODST_CHaracter_Blueprint
+[2015.04.15-21.39.16:841][431]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.39.16:841][431]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.39.16:841][431]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.39.16:989][431]LogBlueprint:Warning: [compiler] Warning [2638.73] Compile of ODST_CHaracter_Blueprint failed. 3 Fatal Issue(s) 0 Warning(s) [in 239 ms]
+[2015.04.15-21.39.16:989][431]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.39.16:989][431]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Pawn, therefore ' Target ' must have a connection.
+[2015.04.15-21.39.16:989][431]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2015.04.15-21.39.16:989][431]BlueprintEditorCompileResults:Warning: Warning [2638.73] Compile of ODST_CHaracter_Blueprint failed. 3 Fatal Issue(s) 0 Warning(s) [in 239 ms]
+[2015.04.15-21.39.53:004][821]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C7DCE7D9E0
+[2015.04.15-21.39.53:005][821]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C76893CD60
+[2015.04.15-21.39.53:020][821]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C76893EDE0
+[2015.04.15-21.39.58:596][821]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C76DE62F20
+[2015.04.15-21.40.07:606][  3]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/StarterContent/MyCharacter/ODST_Character/Blueprint'
+[2015.04.15-21.40.19:389][340]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C762700180
+[2015.04.15-21.40.19:390][340]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C769CD1C60
+[2015.04.15-21.40.35:850][ 54]Cmd: QUIT_EDITOR
+[2015.04.15-21.40.36:052][ 54]LogExit: Preparing to exit.
+[2015.04.15-21.40.36:705][ 54]LogExit: Editor shut down
+[2015.04.15-21.40.36:706][ 54]LogExit: Transaction tracking system shut down
+[2015.04.15-21.40.36:707][ 54]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C73AB33100
+[2015.04.15-21.40.36:707][ 54]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C7387A8220
+[2015.04.15-21.40.36:708][ 54]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C74C86C900
+[2015.04.15-21.40.36:708][ 54]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C73C893E20
+[2015.04.15-21.40.36:708][ 54]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C749CF8C20
+[2015.04.15-21.40.36:709][ 54]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C74BFE7F60
+[2015.04.15-21.40.36:709][ 54]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C74BFE6700
+[2015.04.15-21.40.36:709][ 54]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C76A923920
+[2015.04.15-21.40.36:779][ 54]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000C7D65AE3E0
+[2015.04.15-21.40.36:779][ 54]LogExit: Object subsystem successfully closed.
+[2015.04.15-21.40.36:829][ 54]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2015.04.15-21.40.36:829][ 54]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2015.04.15-21.40.36:829][ 54]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2015.04.15-21.40.36:829][ 54]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2015.04.15-21.40.36:829][ 54]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2015.04.15-21.40.36:829][ 54]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2015.04.15-21.40.36:829][ 54]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2015.04.15-21.40.36:829][ 54]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2015.04.15-21.40.36:830][ 54]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2015.04.15-21.40.36:830][ 54]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2015.04.15-21.40.36:830][ 54]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2015.04.15-21.40.36:830][ 54]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2015.04.15-21.40.36:830][ 54]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2015.04.15-21.40.36:830][ 54]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2015.04.15-21.40.36:830][ 54]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2015.04.15-21.40.36:830][ 54]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2015.04.15-21.40.36:830][ 54]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2015.04.15-21.40.36:830][ 54]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2015.04.15-21.40.36:830][ 54]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2015.04.15-21.40.36:830][ 54]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2015.04.15-21.40.36:831][ 54]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2015.04.15-21.40.36:831][ 54]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2015.04.15-21.40.36:831][ 54]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2015.04.15-21.40.36:831][ 54]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2015.04.15-21.40.36:831][ 54]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2015.04.15-21.40.36:831][ 54]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2015.04.15-21.40.36:831][ 54]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2015.04.15-21.40.36:831][ 54]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2015.04.15-21.40.36:831][ 54]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2015.04.15-21.40.36:831][ 54]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2015.04.15-21.40.36:831][ 54]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2015.04.15-21.40.36:831][ 54]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2015.04.15-21.40.37:590][ 54]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2015.04.15-21.40.37:590][ 54]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2015.04.15-21.40.37:590][ 54]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2015.04.15-21.40.37:590][ 54]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2015.04.15-21.40.37:590][ 54]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2015.04.15-21.40.37:592][ 54]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2015.04.15-21.40.37:592][ 54]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2015.04.15-21.40.37:592][ 54]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2015.04.15-21.40.37:592][ 54]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2015.04.15-21.40.37:592][ 54]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2015.04.15-21.40.37:594][ 54]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2015.04.15-21.40.37:594][ 54]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2015.04.15-21.40.37:594][ 54]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2015.04.15-21.40.37:594][ 54]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2015.04.15-21.40.37:594][ 54]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2015.04.15-21.40.37:595][ 54]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2015.04.15-21.40.37:595][ 54]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2015.04.15-21.40.37:595][ 54]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2015.04.15-21.40.37:595][ 54]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2015.04.15-21.40.37:654][ 54]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2015.04.15-21.40.37:654][ 54]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2015.04.15-21.40.37:655][ 54]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2015.04.15-21.40.37:656][ 54]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2015.04.15-21.40.37:656][ 54]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2015.04.15-21.40.37:656][ 54]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2015.04.15-21.40.37:656][ 54]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2015.04.15-21.40.37:656][ 54]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2015.04.15-21.40.37:656][ 54]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2015.04.15-21.40.37:657][ 54]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2015.04.15-21.40.37:657][ 54]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2015.04.15-21.40.37:657][ 54]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2015.04.15-21.40.37:657][ 54]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2015.04.15-21.40.37:657][ 54]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2015.04.15-21.40.37:657][ 54]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2015.04.15-21.40.37:657][ 54]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2015.04.15-21.40.37:657][ 54]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2015.04.15-21.40.37:657][ 54]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2015.04.15-21.40.37:657][ 54]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2015.04.15-21.40.37:657][ 54]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2015.04.15-21.40.37:657][ 54]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2015.04.15-21.40.37:861][ 54]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2015.04.15-21.40.37:861][ 54]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2015.04.15-21.40.37:861][ 54]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2015.04.15-21.40.37:861][ 54]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2015.04.15-21.40.37:861][ 54]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2015.04.15-21.40.37:861][ 54]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2015.04.15-21.40.37:862][ 54]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2015.04.15-21.40.37:862][ 54]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2015.04.15-21.40.37:862][ 54]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2015.04.15-21.40.37:862][ 54]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2015.04.15-21.40.37:862][ 54]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2015.04.15-21.40.37:862][ 54]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2015.04.15-21.40.37:862][ 54]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2015.04.15-21.40.37:863][ 54]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2015.04.15-21.40.37:863][ 54]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2015.04.15-21.40.37:863][ 54]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2015.04.15-21.40.37:863][ 54]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2015.04.15-21.40.37:863][ 54]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2015.04.15-21.40.37:863][ 54]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2015.04.15-21.40.37:863][ 54]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2015.04.15-21.40.37:863][ 54]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2015.04.15-21.40.37:863][ 54]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2015.04.15-21.40.37:863][ 54]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2015.04.15-21.40.37:863][ 54]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.04.15-21.40.37:864][ 54]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.04.15-21.40.37:864][ 54]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2015.04.15-21.40.37:864][ 54]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2015.04.15-21.40.37:966][ 54]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2015.04.15-21.40.37:966][ 54]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2015.04.15-21.40.37:970][ 54]LogModuleManager: Shutting down and abandoning module Media (76)
+[2015.04.15-21.40.37:970][ 54]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2015.04.15-21.40.37:971][ 54]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2015.04.15-21.40.37:971][ 54]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2015.04.15-21.40.37:971][ 54]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2015.04.15-21.40.37:973][ 54]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2015.04.15-21.40.37:973][ 54]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2015.04.15-21.40.37:973][ 54]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2015.04.15-21.40.37:973][ 54]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2015.04.15-21.40.37:973][ 54]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2015.04.15-21.40.37:974][ 54]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2015.04.15-21.40.37:975][ 54]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2015.04.15-21.40.37:975][ 54]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2015.04.15-21.40.37:975][ 54]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2015.04.15-21.40.37:975][ 54]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2015.04.15-21.40.37:980][ 54]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2015.04.15-21.40.37:980][ 54]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2015.04.15-21.40.37:980][ 54]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2015.04.15-21.40.37:980][ 54]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2015.04.15-21.40.37:980][ 54]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2015.04.15-21.40.37:981][ 54]LogModuleManager: Shutting down and abandoning module Core (55)
+[2015.04.15-21.40.37:981][ 54]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2015.04.15-21.40.37:981][ 54]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2015.04.15-21.40.37:981][ 54]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2015.04.15-21.40.37:981][ 54]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2015.04.15-21.40.38:037][ 54]LogDerivedDataCache: Shutdown
+[2015.04.15-21.40.38:037][ 54]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2015.04.15-21.40.38:039][ 54]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2015.04.15-21.40.38:040][ 54]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2015.04.15-21.40.38:040][ 54]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2015.04.15-21.40.38:040][ 54]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2015.04.15-21.40.38:040][ 54]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2015.04.15-21.40.38:040][ 54]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2015.04.15-21.40.38:040][ 54]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.04.15-21.40.38:040][ 54]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.04.15-21.40.38:040][ 54]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.04.15-21.40.38:040][ 54]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.04.15-21.40.38:040][ 54]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2015.04.15-21.40.38:040][ 54]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.04.15-21.40.38:040][ 54]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.04.15-21.40.38:040][ 54]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.04.15-21.40.38:040][ 54]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.04.15-21.40.38:040][ 54]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.04.15-21.40.38:044][ 54]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.04.15-21.40.38:044][ 54]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.04.15-21.40.38:044][ 54]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.04.15-21.40.38:044][ 54]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.04.15-21.40.38:044][ 54]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.04.15-21.40.38:044][ 54]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.04.15-21.40.38:044][ 54]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.04.15-21.40.38:044][ 54]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.04.15-21.40.38:044][ 54]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.04.15-21.40.38:047][ 54]LogExit: Exiting.
+[2015.04.15-21.40.38:054][ 54]Log file closed, 04/15/15 23:40:38
